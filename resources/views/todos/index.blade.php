@@ -33,11 +33,12 @@
             </svg>
           </button>
         </div>
+
         <div class="grid gap-4">
 
           <div class="create-task px-6 py-2 bg-white rounded-md">
             <div class="flex items-center justify-start gap-4">
-              <input type="checkbox" name="checkbox">
+              <input type="checkbox" name="checkbox" disabled>
               <input class="border-none w-full text-[#393A4B] outline-[#9495A5]" type="text" name="input-new-task"
                 placeholder="Create a new todo...">
             </div>
@@ -46,7 +47,7 @@
           <div class="bg-white px-6 py-4 rounded-lg shadow-md grid">
             <ul class="task-list list-none p-0 divide-y  divide-[#9495A5] text-[#494C6B]">
 
-              <li class="flex items-center justify-between py-4 cursor-pointer">
+              <li class="flex items-center justify-between py-4">
                 <div class="flex items-center justify-start gap-4">
                   <input class="cursor-pointer" type="checkbox" name="checkbox">
                   <p>Complete JavaScript online course</p>
@@ -59,7 +60,7 @@
                 </button>
               </li>
 
-              <li class="flex items-center justify-between py-4 cursor-pointer">
+              <li class="flex items-center justify-between py-4">
                 <div class="flex items-center justify-start gap-4">
                   <input class="cursor-pointer" type="checkbox" name="checkbox">
                   <p>Jog around the park 3x</p>
@@ -74,7 +75,7 @@
 
               </li>
 
-              <li class="flex items-center justify-between py-4 cursor-pointer">
+              <li class="flex items-center justify-between py-4">
                 <div class="flex items-center justify-start gap-4">
                   <input class="cursor-pointer" type="checkbox" name="checkbox">
                   <p>10 minutes meditation</p>
@@ -88,7 +89,7 @@
 
               </li>
 
-              <li class="flex items-center justify-between py-4 cursor-pointer">
+              <li class="flex items-center justify-between py-4">
                 <div class="flex items-center justify-start gap-4">
                   <input class="cursor-pointer" type="checkbox" name="checkbox">
                   <p>Read for 1 hour</p>
@@ -102,7 +103,7 @@
 
               </li>
 
-              <li class="flex items-center justify-between py-4 cursor-pointer">
+              <li class="flex items-center justify-between py-4">
                 <div class="flex items-center justify-start gap-4">
                   <input class="cursor-pointer" type="checkbox" name="checkbox">
                   <p>Pick up groceries</p>
@@ -116,7 +117,7 @@
 
               </li>
 
-              <li class="flex items-center justify-between py-4 cursor-pointer">
+              <li class="flex items-center justify-between py-4">
                 <div class="flex items-center justify-start gap-4">
                   <input class="cursor-pointer" type="checkbox" name="checkbox">
                   <p>Complete Todo App</p>
