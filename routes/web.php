@@ -17,16 +17,16 @@ use app\Http\Controllers\TaskController;
 
 //Todo Controller Routes
 
-Route::post('/todos', TodoController::class, 'createTodo');
-Route::get('/todos/{$id}', TodoController::class, 'displayTodo');
-Route::patch('/todos/{$id}', TodoController::class, 'updateTodo');
-Route::delete('/todos/{$id}', TodoController::class, 'deleteTodo');
+Route::post('./todos', TodoController::class, 'createTodo');
+Route::get('./todos/{$id}', TodoController::class, 'displayTodo');
+Route::patch('./todos/{$id}', TodoController::class, 'updateTodo');
+Route::delete('./todos/{$id}', TodoController::class, 'deleteTodo');
 
 // Task Controller Routes
-Route::post('/tasks', TaskController::class, 'createTask');
-Route::get('/tasks/{$id}', TaskController::class, 'displayTask');
-Route::patch('/tasks/{$id}', TaskController::class, 'updateTask');
-Route::delete('/tasks/{$id}', TaskController::class, 'deleteTask');
+Route::post('./tasks', TaskController::class, 'createTask');
+Route::get('./tasks/{$id}', TaskController::class, 'displayTask');
+Route::patch('./tasks/{$id}', TaskController::class, 'updateTask');
+Route::delete('./tasks/{$id}', TaskController::class, 'deleteTask');
 
 
 Route::get('/', function () {

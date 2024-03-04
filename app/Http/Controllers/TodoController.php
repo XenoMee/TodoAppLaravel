@@ -7,6 +7,11 @@ use app\Models\Todo;
 
 class TodoController extends Controller
 {
+
+    // public function index(){
+    //     $todos = Todo::all();
+    // }
+
     public function createTodo(Request $request){
         $request->validate([
             'title' => 'required|string',
