@@ -27,6 +27,7 @@ body {
     background-size: 100%;
     background-position: top;
 }
+
 hr {
     height: 0;
     color: inherit;
@@ -656,6 +657,10 @@ video {
     }
 }
 @media (min-width: 640px) {
+    body {
+        background-image: url("../../assets/images/bg-desktop-light.jpg");
+    }
+
     .sm\:fixed {
         position: fixed;
     }
