@@ -15,6 +15,7 @@
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  @vite(['./resources/css/app.css'])
   <title>Todo app</title>
 </head>
 
